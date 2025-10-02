@@ -28,3 +28,11 @@ body {
 main {
   min-height: 75vh; /* Memberi tinggi minimum agar footer tidak naik */
 }
+
+/* ... (CSS Anda yang sudah ada sebelumnya) ... */
+
+/* Styling untuk NavLink yang aktif */
+.nav-link.active {
+  font-weight: bold;
+  color: #0d6efd !important; /* Warna biru primary Bootstrap */
+}

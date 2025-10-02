@@ -4,12 +4,12 @@ import React, { useState } from 'react';
 
 // --- DATA BUKU (MOCK DATA) ---
 const booksData = [
-  { id: 1, title: 'Atomic Habits', author: 'James Clear', price: 150000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655995532l/40121378.jpg' },
-  { id: 2, title: 'The Psychology of Money', author: 'Morgan Housel', price: 125000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594612385l/41881472.jpg' },
+  { id: 1, title: 'Atomic Habits', author: 'James Clear', price: 150000, imageUrl: 'https://www.thehopefullinstitute.com/wp-content/uploads/2022/03/Atomic-Habits-Book-Cover.jpeg' },
+  { id: 2, title: 'The Psychology of Money', author: 'Morgan Housel', price: 125000, imageUrl: 'https://tse1.mm.bing.net/th/id/OIP.51WJVzCkR5N9U0wWZNKNXgHaJ5?pid=Api&P=0&h=220' },
   { id: 3, title: 'Sapiens: A Brief History', author: 'Yuval Noah Harari', price: 180000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271.jpg' },
-  { id: 4, title: 'Educated: A Memoir', author: 'Tara Westover', price: 165000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/15 Educated.jpg' },
-  { id: 5, title: 'Filosofi Teras', author: 'Henry Manampiring', price: 98000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1541957259l/42772275.jpg' },
-  { id: 6, title: 'How to Win Friends', author: 'Dale Carnegie', price: 110000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442726932l/4865.jpg' },
+  { id: 4, title: 'Educated: A Memoir', author: 'Tara Westover', price: 165000, imageUrl: 'https://m.media-amazon.com/images/I/71-4MkLN5jL.jpg' },
+  { id: 5, title: 'Filosofi Teras', author: 'Henry Manampiring', price: 98000, imageUrl: 'https://cdn.gramedia.com/uploads/picture_meta/2023/11/27/kjf6cgigkomf6sy9o5qauu.jpg' },
+  { id: 6, title: 'How to Win Friends', author: 'Dale Carnegie', price: 110000, imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442726934i/4865.jpg' },
 ];
 
 const BookCard = ({ book, onAddToCart }) => (
